@@ -1,0 +1,13 @@
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[alias]
+    s = status
+    co = checkout
+    pushm = push origin master
+    addall = add .
+    unstage = reset HEAD .
+[user]
+	name = Guilherme Bomfim
+	email = guilhermemmb@gmail.com
