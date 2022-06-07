@@ -25,7 +25,10 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 echo "installing apps..."
 brew install cask
 brew install brew-cask-completion
+export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+
 brew tap homebrew/cask
+brew tap homebrew/cask-fonts
 
 brew install --cask slack
 brew install --cask zoom
@@ -39,3 +42,4 @@ brew install --cask krisp
 brew install --cask snapcamera
 brew install --cask hype
 brew install --cask rectangle
+brew install --cask font-fira-code
